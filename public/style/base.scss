@@ -1,0 +1,192 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA
+}
+
+
+$font-input-size: 14px;
+$box-shadow-standard: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+0px 1px 10px 0px rgba(0, 0, 0, 0.12),
+0px 0px 0px 0px rgba(0, 0, 0, 0.12);
+input {
+    font-size: $font-input-size !important;
+}
+
+#post-panel {
+    margin: 120px;
+}
+
+#login-panel {
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media (max-width: 768px) {
+    #login-panel {
+        margin-top: 70px;
+        padding-top: 5px;
+        padding-bottom: 50px;
+        padding-left: 0px;
+        padding-right: 20px;
+    }
+}
+
+ .btn  {
+    text-transform: capitalize !important;
+}
+.caret{
+    margin-left: 5px !important;
+}
+
+.btn-form {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+i.title-icon {
+    margin-left: 7px;
+}
+
+i.pull-left-mod {
+    margin-right: 7px;
+}
+
+i.pull-right-mod {
+    margin-left: 7px;
+}
+
+.panel-refresh{
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+.label-padding {
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.alert {
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+    margin: 10px;
+}
+
+.login-panel-bottom {
+    margin-left: 10px;
+    margin-right: -20px;
+}
+
+.btn-login {
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.btn-paired {
+    margin-right: 10px;
+}
+
+.home-badge{
+    background-color: #2196F3;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.panel-well {
+    box-shadow: $box-shadow-standard !important;
+}
+
+.panel-shadow {
+    box-shadow: $box-shadow-standard !important;
+}
+
+.panel-well-data{
+    box-shadow: $box-shadow-standard !important;
+    padding: 30px;
+    
+    background-color: #ffffff;
+}
+
+.nav-dashboard {
+    position: fixed;
+    z-index: 1;
+    width: 90%;
+    margin-left: 10%;
+    background-color: #2196f3;
+    color: white !important;
+    box-shadow: $box-shadow-standard;
+    height: 70px;
+}
+
+.navbar-right {
+    margin-right: 20px;
+}
+
+.title-nav {
+    color: #fff !important;
+    font-size: 25px;
+    font-weight: 500;
+    height: 30px !important;
+    margin-left: 150px;
+}
+
+.dashboard-content {
+    margin-left: 310px;
+    margin-top: 110px;
+    margin-bottom: 200px;
+   
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+
+.navbar-right {
+    line-height: 40px;
+}
+
+.metismenu {
+    z-index: 2;
+    position: fixed;
+    width: 250px;
+    bottom: 0;
+    left: 0;
+    top: 70px;
+}
+
+.margin-bottom-extra{
+    margin-bottom: 30px;
+}
+
+.nav-metis {
+    padding-top: 20px;
+}
+
+.nav-profile {
+    z-index: 2;
+    width: 250px;
+    float: left;
+    padding-left: 0.3em;
+    position: fixed;
+    box-shadow: $box-shadow-standard
+}
+
+.nav-profile-inner {
+    border: none;
+}
+
