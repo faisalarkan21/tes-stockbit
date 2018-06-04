@@ -4,7 +4,7 @@
   "description": "simple blog with react-boostrap",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --config webpack.config.dev.js --host 0.0.0.0",
+    "start": "webpack-dev-server --config webpack.config.dev.js --host 0.0.0.0",
     "build": "webpack-dev-server --config webpack.config.prod.js --host 0.0.0.0",
     "test": "webpack -p"
   },
